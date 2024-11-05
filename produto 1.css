@@ -1,0 +1,131 @@
+/* Aplica margens e padding zerados para todos os elementos e define o box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte geral */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    padding: 100px; /* Espaçamento interno */
+}
+
+/* Estiliza o cabeçalho */
+/* Estiliza a seção do produto */
+.produto {
+    display: flex; /* Usa o flexbox para organizar o layout */
+    justify-content: space-around; /* Distribui o espaço entre os elementos */
+    background-color: #fff; /* Cor de fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do elemento */
+}
+
+/* Estiliza a div que contém as imagens do produto */
+.imagens-produto {
+    flex: 1; /* Ocupa 1 parte do espaço disponível */
+}
+
+/* Estiliza a imagem principal do produto */
+.imagem-principal {
+    width: 100%; /* A imagem ocupa 100% da largura da div */
+    max-width: 300px; /* Define um tamanho máximo para a imagem */
+    margin-bottom: 0px; /* Espaçamento inferior */
+}
+
+/* Estiliza as miniaturas das imagens */
+.miniaturas img {
+    width: 70px; /* Largura fixa das miniaturas */
+    margin-right: 10px; /* Espaçamento entre as miniaturas */
+    cursor: pointer; /* O cursor muda para pointer ao passar sobre as miniaturas */
+}
+
+/* Estiliza a div que contém os detalhes do produto */
+.detalhes-produto {
+    flex: 1; /* Ocupa 1 parte do espaço disponível */
+}
+
+/* Estiliza o nome do produto */
+h2 {
+    color: #333; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estiliza a descrição do produto */
+.descricao {
+    color: #555; /* Cor mais clara para a descrição */
+    margin-bottom: 15px; /* Espaçamento inferior */
+}
+
+/* Estiliza o preço do produto */
+.preco {
+    color: #000000; /* Cor vermelha para o preço */
+    font-size: 30px; /* Tamanho maior para destacar */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estiliza o formulário de opções de compra */
+.opcoes-compra {
+    display: flex; /* Organiza em colunas usando flexbox */
+    flex-direction: column; /* As opções ficam uma abaixo da outra */
+}
+
+/* Estiliza os rótulos (labels) dos selects */
+label {
+    margin-bottom: 5px; /* Espaçamento inferior */
+    font-weight: bold; /* Negrito para o texto */
+}
+
+/* Estiliza os campos de seleção (selects) */
+select {
+    padding: 8px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ddd; /* Borda cinza clara */
+}
+
+/* Estiliza o botão de compra */
+button {
+    padding: 15px; /* Espaçamento interno */
+    background-color: #27ae60; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de pointer ao passar sobre o botão */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estiliza o botão ao passar o mouse (hover) */
+button:hover {
+    background-color: #2ecc71; /* Cor verde mais clara */
+}
+
+/* Estiliza a seção de comentários */
+.comentarios {
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estiliza cada comentário */
+.comentario {
+    display: flex; /* Exibe a foto e o texto lado a lado */
+    align-items: center; /* Alinha a foto e o texto verticalmente */
+    background-color: #fff; /* Fundo branco */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do comentário */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estiliza a foto do usuário */
+.foto-usuario {
+    width: 50px; /* Largura da foto */
+    height: 50px; /* Altura da foto */
+    border-radius: 50%; /* Deixa a imagem redonda */
+    margin-right: 15px; /* Espaçamento à direita da foto */
+}
+/* Estiliza o texto dos comentários */
+.comentario p {
+    color: #333
+}

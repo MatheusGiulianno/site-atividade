@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+
+    <div class="cart-container">
+        <h2>Meu Carrinho</h2>
+
+        <div class="cart-items">
+            <!-- Itens do carrinho serão listados aqui -->
+        </div>
+
+        <div class="cart-total">
+            <p>Total: R$ <span id="total-price">0.00</span></p>
+        </div>
+
+        <button id="checkout-btn">Finalizar Compra</button>
+    </div>
+
+    <div class="product-list">
+        <h3>Produtos</h3>
+        <div class="product" data-name="Camisa do Brasil - Copa do Mundo 1994" data-price="184,71">
+            <h5>Camisa do Brasil - Copa do Mundo 1994</h5>
+            <p>Preço: R$184,71</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-name="Camisa França Home (1) 1998 Adidas Retrô Masculina" data-price="244,90">
+            <h5>Camisa França Home (1) 1998 Adidas Retrô Masculina</h5>
+            <p>Preço: R$ 244,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-name="Camisa Retro Seleção Itália - Copa do Mundo 2006" data-price="244,90">
+            <h5>Camisa Retro Seleção Itália - Copa do Mundo 2006</h5>
+            <p>Preço: R$ 244,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-name="Camisa Seleção Alemanha Retrô 1990 Branca - Adidas" data-price="189,90">
+            <h5>Camisa Seleção Alemanha Retrô 1990 Branca - Adidas</h5>
+            <p>Preço: R$ 189,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-name="Camisa Retrô Inglaterra 1966 Manga Longas" data-price="189,90">
+            <h5>Camisa Retrô Inglaterra 1966 Manga Longas</h5>
+            <p>Preço: R$ 189,90</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product" data-name="Produto 3" data-price="29.99">
+            <h4>Produto 6</h4>
+            <p>Preço: R$ 29,99</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

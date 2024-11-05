@@ -1,0 +1,29 @@
+#about {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #about strong {
+    color: #ff6f00; /* Cor de destaque para o nome da loja */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
